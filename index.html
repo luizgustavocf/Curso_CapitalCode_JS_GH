@@ -10,9 +10,36 @@
 </head>
 <body>
     <script>
-        /*document.write("Hello World");*/
+        /*
+        Aula 03
+        Imprimir na tela uma mensagem
+        document.write("Hello World");
         alert("Hello World");
         console.log("Hello World");
+        */
+        /*
+        Aula 04 - Aula 05
+        //Imprimir sem erro de acentuação conform o <meta charset="utf-8"> dentro do head
+        */
+        var txt1="Isto é um texto";
+        document.write(txt1);
+        //number, string, boolean, object
+        var numero;
+        numero = 1;
+        var txt2;
+        txt2 = "Meu texto";
+        var boleana;
+        boleana = false;
+        var pessoa = {nome: "Luiz Gustavo",sobrenome: "de Carvalho Franzone",idade: 36};
+        var nome = "Olá, o meu nome é "+pessoa.nome;
+
+        document.write(numero);
+        document.write(txt2);
+        document.write(boleana);
+        document.write("Nome: ",pessoa.nome," ",pessoa.sobrenome,". Idade: ",pessoa.idade," anos.");
+        document.write(pessoa.nome+" "+pessoa.sobrenome);
+        document.write(nome);
+        
     </script>
 </body>
 </html>
